@@ -25,6 +25,7 @@
 							                                	<option value="2">Chị</option>
 							                                	<option value="2">Cô</option>
 							                                	<option value="2">Chú</option>
+							                                	<option value="2">Bác</option>
 							                                </select>
 							                            </div>
 							                            <div class="col-lg-6">
