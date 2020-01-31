@@ -26,7 +26,7 @@ var KTAppUserListDatatable = function () {
 
             // layout definition
             layout: {
-                scroll: false, // enable/disable datatable scroll both horizontal and vertical when needed.
+                scroll: true, // enable/disable datatable scroll both horizontal and vertical when needed.
                 footer: false, // display/hide footer
             },
 
@@ -55,7 +55,7 @@ var KTAppUserListDatatable = function () {
                 {
                     field: "Name",
                     title: "Họ tên",
-                    width: 200,
+                    autoHide: false,
                     // callback function support for column rendering
                     template: function (data, i) {
                         var number = 4 + i;
@@ -103,7 +103,6 @@ var KTAppUserListDatatable = function () {
                     width: 110,
                     field: 'Status',
                     title: 'Loại Khách hàng',
-                    autoHide: false,
                     // callback function support for column rendering
                     template: function (row) {
                         var status = {
@@ -125,6 +124,7 @@ var KTAppUserListDatatable = function () {
                 {
                     field: "Actions",
                     title: "Xử lý",
+                    width: 180,
                     sortable: false,
                     autoHide: false,
                     overflow: 'visible',

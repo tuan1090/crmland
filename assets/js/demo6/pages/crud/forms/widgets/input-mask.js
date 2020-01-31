@@ -6,7 +6,7 @@ var KTInputmask = function () {
     var demos = function () {
         // date format
         $("#kt_inputmask_1").inputmask("99/99/9999", {
-            "placeholder": "mm/dd/yyyy",
+            "placeholder": "dd/mm/yyyy",
             autoUnmask: true
         });
 
