@@ -298,6 +298,8 @@
 												<P>------------------</P>
 												<p><i>Nếu [DANH_XUNG] muốn dừng nhận email từ em, click vào [HUY_DANG_KY]</i></p>
 											</div>
+											<div class="kt-heading kt-heading--md">File đính kèm</div>
+											<input type="file" name="img" multiple>
 											<div class="kt-heading kt-heading--md">Các Tag sử dụng</div>
 											<div class="row">
 												<div class="col-lg-6">
