@@ -31,7 +31,7 @@
 			</div>
 		</div>
 		<div class="kt-subheader__toolbar">
-			<a href="#" class="btn btn-primary btn-bold" data-toggle="modal" data-target="#kt_datatable_add_customer_modal">
+			<a href="demo6/email-camp-create.php" class="btn btn-primary btn-bold">
 				<i class="flaticon-add"></i> Tạo chiến dịch mới 
 			</a>
 		</div>
