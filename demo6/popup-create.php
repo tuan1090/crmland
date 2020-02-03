@@ -439,72 +439,56 @@
 					                                    </div>
 													</div>
 													<div class="form-group mb-3">
-														<label class="mb-3 kt-font-bold">Data đổ về</label>
-														<div class="form-group">
-															<label>Chọn theo dự án</label>
-															<div class="kt-checkbox-list">
-																<label class="kt-checkbox">
-																	<input type="checkbox"> Dự án 01
-																	<span></span>
-																</label>
-																<label class="kt-checkbox">
-																	<input type="checkbox"> Dự án 02
-																	<span></span>
-																</label>
-																<label class="kt-checkbox">
-																	<input type="checkbox" checked="checked"> Dự án 03
-																	<span></span>
-																</label>
+														<label class="mb-3 kt-font-bold mt-3">Data đổ về</label>
+														<div class="form-group row mb-2">
+															<label class="col-form-label col-lg-12 col-sm-12">Chọn theo dự án</label>
+															<div class=" col-lg-12 col-md-12 col-sm-12">
+																<select class="form-control kt-select2" id="kt_select2_1" name="param" multiple="multiple" style="width: 100%">
+																		<option value="AK" selected>Alaska</option>
+																		<option value="HI">Hawaii</option>
+																		<option value="CA">California</option>
+																		<option value="NV">Nevada</option>
+																		<option value="OR">Oregon</option>
+																		<option value="WA">Washington</option>
+																		<option value="AZ">Arizona</option>
+																		<option value="CO">Colorado</option>
+																		<option value="ID">Idaho</option>
+																		<option value="MT">Montana</option>
+																</select>
 															</div>
 														</div>
-														<div class="form-group">
-															<label>Chọn theo loại khách hàng</label>
-															<div class="kt-checkbox-list">
-																<label class="kt-checkbox">
-																	<input type="checkbox"> Phổ thông
-																	<span></span>
-																</label>
-																<label class="kt-checkbox">
-																	<input type="checkbox"> Tiềm năng
-																	<span></span>
-																</label>
-																<label class="kt-checkbox">
-																	<input type="checkbox" checked="checked"> Khách chốt
-																	<span></span>
-																</label>
-																<label class="kt-checkbox">
-																	<input type="checkbox" checked="checked"> Khách đã mua
-																	<span></span>
-																</label>
+														<div class="form-group row mb-2">
+															<label class="col-form-label col-lg-12 col-sm-12">Chọn theo loại khách hàng</label>
+															<div class=" col-lg-12 col-md-12 col-sm-12">
+																<select class="form-control kt-select2" id="kt_select2_2" name="param" multiple="multiple" style="width: 100%">
+																		<option value="AK" selected>Alaska</option>
+																		<option value="HI">Hawaii</option>
+																		<option value="CA">California</option>
+																		<option value="NV">Nevada</option>
+																		<option value="OR">Oregon</option>
+																		<option value="WA">Washington</option>
+																		<option value="AZ">Arizona</option>
+																		<option value="CO">Colorado</option>
+																		<option value="ID">Idaho</option>
+																		<option value="MT">Montana</option>
+																</select>
 															</div>
 														</div>
-														<div class="form-group">
-															<label>Chọn theo nhóm khách hàng</label>
-															<div class="kt-checkbox-list">
-																<label class="kt-checkbox">
-																	<input type="checkbox"> Nhóm khách hàng 01
-																	<span></span>
-																</label>
-																<label class="kt-checkbox">
-																	<input type="checkbox"> Nhóm khách hàng 02
-																	<span></span>
-																</label>
-																<label class="kt-checkbox">
-																	<input type="checkbox" checked="checked"> Nhóm khách hàng 03
-																	<span></span>
-																</label>
-																<label class="kt-checkbox">
-																	<input type="checkbox" checked="checked"> Nhóm khách hàng 04
-																	<span></span>
-																</label>
-																<label class="kt-checkbox">
-																	<input type="checkbox" checked="checked"> Nhóm khách hàng 05
-																	<span></span>
-																</label>
-																<label class="kt-checkbox">
-																	<input type="checkbox" checked="checked"> Nhóm khách hàng 06
-																	<span></span>
-																</label>
+														<div class="form-group row mb-2">
+															<label class="col-form-label col-lg-12 col-sm-12">Chọn theo nhóm khách hàng</label>
+															<div class=" col-lg-12 col-md-12 col-sm-12">
+																<select class="form-control kt-select2" id="kt_select2_3" name="param" multiple="multiple" style="width: 100%">
+																		<option value="AK" selected>Alaska</option>
+																		<option value="HI">Hawaii</option>
+																		<option value="CA">California</option>
+																		<option value="NV">Nevada</option>
+																		<option value="OR">Oregon</option>
+																		<option value="WA">Washington</option>
+																		<option value="AZ">Arizona</option>
+																		<option value="CO">Colorado</option>
+																		<option value="ID">Idaho</option>
+																		<option value="MT">Montana</option>
+																</select>
 															</div>
 														</div>
 													</div>		
@@ -572,6 +556,7 @@
 		
 	<?php require "footer.php"; ?>
 	<script src="./assets/js/demo6/pages/crud/forms/widgets/input-mask.js" type="text/javascript"></script>
+	<script src="./assets/js/demo6/pages/crud/forms/widgets/select2.js" type="text/javascript"></script>
 	<script type="text/javascript">
 		$('input#non-redirect').click(function() {
 				$("#chuyen_trang").addClass("d-none");
