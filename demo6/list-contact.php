@@ -367,109 +367,89 @@
 															</div>
 															<div id="collapseTwo5" class="collapse" aria-labelledby="headingTwo5" data-parent="#accordionExample5" style="">
 																<div class="card-body">
+																	<div class="form-group mb-3">
+																		<label>Ngày sinh</label>
+																		<input class="form-control form-control-sm" id="kt_inputmask_1" type="text" im-insert="true">
+																	</div>
+																	<div class="form-group mb-3">
+																		<label>Khách hàng của dự án</label>
+																		<div class="w-100">
+																			<select class="form-control form-control-sm kt-select2" id="kt_select2_11" name="param" multiple="multiple" style="width: 100% !important">
+																				<option value="AK" selected>Alaska</option>
+																				<option value="HI" selected>Hawaii</option>
+																				<option value="CA" selected>California</option>
+																				<option value="NV" selected>Nevada</option>
+																				<option value="OR">Oregon</option>
+																				<option value="WA">Washington</option>
+																				<option value="AZ">Arizona</option>
+																				<option value="CO">Colorado</option>
+																				<option value="ID">Idaho</option>
+																				<option value="MT">Montana</option>
+																				<option value="AK">Alaska</option>
+																				<option value="HI">Hawaii</option>
+																				<option value="CA">California</option>
+																				<option value="NV">Nevada</option>
+																				<option value="OR">Oregon</option>
+																				<option value="WA">Washington</option>
+																				<option value="AZ">Arizona</option>
+																				<option value="CO">Colorado</option>
+																				<option value="ID">Idaho</option>
+																				<option value="MT">Montana</option>
+																			</select>
+																		</div>
+																		<span class="form-text text-muted">Lựa chọn 1 hoặc nhiều nhóm trong danh sách</span>
+																	</div>
+																	<div class="form-group mb-3">
+																		<label>Thuộc nhóm khách hàng</label>
+																		<div class="w-100">
+																			<select class="form-control form-control-sm kt-select2" id="kt_select2_8" name="param" multiple="multiple" style="width: 100% !important">
+																				<option value="AK" selected>Alaska</option>
+																				<option value="HI" selected>Hawaii</option>
+																				<option value="CA" selected>California</option>
+																				<option value="NV" selected>Nevada</option>
+																				<option value="OR">Oregon</option>
+																				<option value="WA">Washington</option>
+																				<option value="AZ">Arizona</option>
+																				<option value="CO">Colorado</option>
+																				<option value="ID">Idaho</option>
+																				<option value="MT">Montana</option>
+																				<option value="AK">Alaska</option>
+																				<option value="HI">Hawaii</option>
+																				<option value="CA">California</option>
+																				<option value="NV">Nevada</option>
+																				<option value="OR">Oregon</option>
+																				<option value="WA">Washington</option>
+																				<option value="AZ">Arizona</option>
+																				<option value="CO">Colorado</option>
+																				<option value="ID">Idaho</option>
+																				<option value="MT">Montana</option>
+																			</select>
+																		</div>
+																		<span class="form-text text-muted">Lựa chọn 1 hoặc nhiều nhóm trong danh sách</span>
+																	</div>
 																	<div class="row">
-																		<div class="form-group col-lg-12">
-																			<label>Ngày sinh</label>
-																			<input class="form-control" id="kt_inputmask_1" type="text" im-insert="true">
-																		</div>
-																		<div class="form-group col-lg-6">
-																			<label>Khách hàng dự án</label>
-																			<div class="kt-checkbox-list">
-																				<label class="kt-checkbox">
-																					<input type="checkbox"> Dự án 01
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox"> Dự án 02
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox" checked="checked"> Dự án 03
-																					<span></span>
-																				</label>
+																		<div class="col-lg-6">
+																			<div class="form-group mb-3">
+																				<label>Phân loại khách hàng</label>
+																				<select class="form-control form-control-sm">
+																						<option selected>Khách phổ thông</option>
+																						<option selected>Khách tiềm năng</option>
+																						<option selected>Khách Nét</option>
+																						<option selected>Khách chốt</option>
+																						<option selected>Khách đã mua</option>
+																				</select>
 																			</div>
 																		</div>
-																		<div class="form-group col-lg-6">
-																			<label>Loại khách hàng</label>
-																			<div class="kt-checkbox-list">
-																				<label class="kt-checkbox">
-																					<input type="checkbox"> Phổ thông
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox"> Tiềm năng
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox" checked="checked"> Khách chốt
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox" checked="checked"> Khách đã mua
-																					<span></span>
-																				</label>
-																			</div>
-																		</div>
-																		<div class="form-group col-lg-6">
-																			<label>Nguồn khách</label>
-																			<div class="kt-checkbox-list">
-																				<label class="kt-checkbox">
-																					<input type="checkbox"> Tự tìm kiếm
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox"> Form website
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox" checked="checked"> Facebook
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox" checked="checked"> Google
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox" checked="checked"> Hotline
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox" checked="checked"> Công ty chuyển
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox" checked="checked"> Giới thiệu
-																					<span></span>
-																				</label>
-																			</div>
-																		</div>
-																		<div class="form-group col-lg-6">
-																			<label>Nhóm khách hàng</label>
-																			<div class="kt-checkbox-list">
-																				<label class="kt-checkbox">
-																					<input type="checkbox"> Nhóm khách hàng 01
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox"> Nhóm khách hàng 02
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox" checked="checked"> Nhóm khách hàng 03
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox" checked="checked"> Nhóm khách hàng 04
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox" checked="checked"> Nhóm khách hàng 05
-																					<span></span>
-																				</label>
-																				<label class="kt-checkbox">
-																					<input type="checkbox" checked="checked"> Nhóm khách hàng 06
-																					<span></span>
-																				</label>
+																		<div class="col-lg-6">	
+																			<div class="form-group mb-3">
+																				<label>Nguồn khách</label>
+																				<select class="form-control form-control-sm">
+																						<option selected>Internet</option>
+																						<option selected>Facebook</option>
+																						<option selected>Google</option>
+																						<option selected>SMS</option>
+																						<option selected>Telesale</option>
+																				</select>
 																			</div>
 																		</div>
 																	</div>
@@ -509,152 +489,94 @@
 												</div>
 											</div>
 											<h5 class="mb-4">Import khách hàng</h5>
-											<form action="/file" class="dropzone">
+											<form action="/file" class="dropzone mb-4">
 												<div class="dropzone-msg dz-message needsclick">
 												    <h3 class="dropzone-msg-title">Kéo thả file vào đây hoặc click vào để chọn file.</h3>
 												    <span class="dropzone-msg-desc">Trình upload chỉ chấp nhận file định dạng <strong>XML</strong> Vui lòng sử dụng file mẫu để việc import chính xác</span>
 												</div>
 											</form>
-											<div class="form-group m-form__group row mt-4">
-					                            <div class="col-lg-6">
-					                            	<label class="kt-font-bold">Khách hàng của dự án</label>
-					                            	<div class="kt-checkbox-inline">
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 1
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 2
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 3
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 4
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 5
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 6
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 7
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 8
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 9
-															<span></span>
-														</label>
+											<div class="form-group mb-3">
+												<label>Khách hàng của dự án</label>
+												<div class="w-100">
+													<select class="form-control form-control-sm kt-select2" id="kt_select2_10" name="param" multiple="multiple" style="width: 100% !important">
+														<option value="AK" selected>Alaska</option>
+														<option value="HI">Hawaii</option>
+														<option value="CA">California</option>
+														<option value="NV">Nevada</option>
+														<option value="OR">Oregon</option>
+														<option value="WA">Washington</option>
+														<option value="AZ">Arizona</option>
+														<option value="CO">Colorado</option>
+														<option value="ID">Idaho</option>
+														<option value="MT">Montana</option>
+														<option value="AK">Alaska</option>
+														<option value="HI">Hawaii</option>
+														<option value="CA">California</option>
+														<option value="NV">Nevada</option>
+														<option value="OR">Oregon</option>
+														<option value="WA">Washington</option>
+														<option value="AZ">Arizona</option>
+														<option value="CO">Colorado</option>
+														<option value="ID">Idaho</option>
+														<option value="MT">Montana</option>
+													</select>
+												</div>
+												<span class="form-text text-muted">Lựa chọn 1 hoặc nhiều nhóm trong danh sách</span>
+											</div>
+											<div class="form-group mb-3">
+												<label>Thuộc nhóm khách hàng</label>
+												<div class="w-100">
+													<select class="form-control form-control-sm kt-select2" id="kt_select2_5" name="param" multiple="multiple" style="width: 100% !important">
+														<option value="AK" selected>Alaska</option>
+														<option value="HI" selected>Hawaii</option>
+														<option value="CA" selected>California</option>
+														<option value="NV" selected>Nevada</option>
+														<option value="OR">Oregon</option>
+														<option value="WA">Washington</option>
+														<option value="AZ">Arizona</option>
+														<option value="CO">Colorado</option>
+														<option value="ID">Idaho</option>
+														<option value="MT">Montana</option>
+														<option value="AK">Alaska</option>
+														<option value="HI">Hawaii</option>
+														<option value="CA">California</option>
+														<option value="NV">Nevada</option>
+														<option value="OR">Oregon</option>
+														<option value="WA">Washington</option>
+														<option value="AZ">Arizona</option>
+														<option value="CO">Colorado</option>
+														<option value="ID">Idaho</option>
+														<option value="MT">Montana</option>
+													</select>
+												</div>
+												<span class="form-text text-muted">Lựa chọn 1 hoặc nhiều nhóm trong danh sách</span>
+											</div>
+											<div class="row">
+												<div class="col-lg-6">
+													<div class="form-group mb-3">
+														<label>Phân loại khách hàng</label>
+														<select class="form-control form-control-sm">
+																<option selected>Khách phổ thông</option>
+																<option selected>Khách tiềm năng</option>
+																<option selected>Khách Nét</option>
+																<option selected>Khách chốt</option>
+																<option selected>Khách đã mua</option>
+														</select>
 													</div>
-					                            </div>
-					                            <div class="col-lg-6">
-					                            	<label class="kt-font-bold">Nhóm khách hàng</label>
-					                                <div class="kt-checkbox-inline">
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 1
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 2
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 3
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 4
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 5
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 6
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 7
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 8
-															<span></span>
-														</label>
+												</div>
+												<div class="col-lg-6">	
+													<div class="form-group mb-3">
+														<label>Nguồn khách</label>
+														<select class="form-control form-control-sm">
+																<option selected>Internet</option>
+																<option selected>Facebook</option>
+																<option selected>Google</option>
+																<option selected>SMS</option>
+																<option selected>Telesale</option>
+														</select>
 													</div>
-					                            </div>
-					                        </div>
-											<div class="form-group m-form__group row">
-					                            <div class="col-lg-6">
-					                            	<label class="kt-font-bold">Loại khách hàng</label>
-					                                <div class="kt-checkbox-inline">
-														<label class="kt-checkbox">
-															<input type="checkbox"> Khách hàng phổ thông
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Khách hàng tiềm năng
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Khách chốt
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Khách đã mua
-															<span></span>
-														</label>
-													</div>
-					                            </div>
-					                            <div class="col-lg-6">
-					                            	<label class="kt-font-bold">Nguồn khách</label>
-					                                <div class="kt-checkbox-inline">
-														<label class="kt-checkbox">
-															<input type="checkbox"> Tự tìm kiếm
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Form website
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Facebook
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Google
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> SMS
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Hotline
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Công ty chuyển
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Giới thiệu
-															<span></span>
-														</label>
-													</div>
-					                            </div>
-					                        </div>
+												</div>
+											</div>
 											<div class="kt-portlet__foot mt-4">
 												<div class="kt-form__actions">
 													<button type="reset" class="btn btn-primary">
@@ -680,206 +602,146 @@
 											</button>
 										</div>
 										<div class="modal-body">
-											<div class="form-group m-form__group row">
-					                            <div class="col-lg-2">
-					                            	<!-- <label>Danh xưng</label> -->
-					                                <select class="form-control m-input" name="sex">
+											<h6 class="mb-4">Thông tin cơ bản</h6>
+											<div class="row">
+												<div class="col-lg-6">
+													<div class="form-group mb-3">
+														<label>Danh xưng</label>
+														<select class="form-control form-control-sm m-input mb-3" name="sex">
+														<option value="">Danh xưng</option>
 					                                	<option value="1">Anh</option>
 					                                	<option value="2">Chị</option>
 					                                	<option value="2">Cô</option>
 					                                	<option value="2">Chú</option>
 					                                </select>
+					                               </div>
 					                            </div>
-					                            <div class="col-lg-6">
-					                            	<!-- <label>Họ tên</label> -->
-					                            	<div class="input-group">
-														<div class="input-group-prepend"><span class="input-group-text"><i class="la la-user"></i></span></div>
-														<input type="text" class="form-control" placeholder="Họ tên" aria-describedby="basic-addon1">
+					                            <div class="col-lg-6">    
+			                                        <div class="form-group mb-3">
+			                                        	<label>Họ tên</label>
+			                                        	<input type="text" class="form-control form-control-sm mb-3" id="name" placeholder="Họ tên (Bắt buộc)" required="">
+			                                        </div>
+			                                    </div>
+			                                    <div class="col-lg-6">    
+			                                        <div class="form-group mb-3">
+														<label>Ngày sinh</label>
+														<input class="form-control form-control-sm" id="kt_inputmask_5" type="text" im-insert="true">
 													</div>
-					                            </div>
-					                            <div class="col-lg-4">
-					                            	<div class="input-group date">
-														<input type="text" class="form-control" readonly="" placeholder="Sinh nhật" id="kt_datepicker_2">
-														<div class="input-group-append">
-															<span class="input-group-text">
-																<i class="la la-calendar-check-o"></i>
-															</span>
-														</div>
-													</div>
-					                            </div>
-					                        </div>
-					                        <div class="form-group m-form__group row">
-					                        	<div class="col-lg-12">
-					                            	<!-- <label>Địa chỉ</label> -->
-					                                <div class="input-group">
-														<div class="input-group-prepend"><span class="input-group-text"><i class="la la-map-marker"></i></span></div>
-														<input type="text" class="form-control" placeholder="Địa chỉ" aria-describedby="basic-addon1">
-													</div>
-					                            </div>
-					                        </div>
-					                        <div class="form-group m-form__group row">
-					                            <div class="col-lg-6">
-					                            	<!-- <label>Điện thoại</label> -->
-					                                <div class="input-group">
-														<div class="input-group-prepend"><span class="input-group-text"><i class="la la-phone"></i></span></div>
-														<input type="tel" class="form-control" placeholder="Điện thoại" aria-describedby="basic-addon1">
-													</div>
-					                            </div>
-					                            <div class="col-lg-6">
-					                            	<!-- <label>Email</label> -->
-					                                <div class="input-group">
-														<div class="input-group-prepend"><span class="input-group-text">@</span></div>
-														<input type="email" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
-													</div>
-					                            </div>
-					                        </div>
-											<div class="form-group m-form__group row">
-					                            <div class="col-lg-6">
-					                            	<label class="kt-font-bold">Khách hàng của dự án</label>
-					                            	<div class="kt-checkbox-inline">
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 1
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 2
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 3
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 4
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 5
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 6
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 7
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 8
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Dự án 9
-															<span></span>
-														</label>
-													</div>
-					                            </div>
-					                            <div class="col-lg-6">
-					                            	<label class="kt-font-bold">Nhóm khách hàng</label>
-					                                <div class="kt-checkbox-inline">
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 1
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 2
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 3
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 4
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 5
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 6
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 7
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Nhóm khách hàng 8
-															<span></span>
-														</label>
-													</div>
-					                            </div>
-					                        </div>
-											<div class="form-group m-form__group row">
-					                            <div class="col-lg-6">
-					                            	<label class="kt-font-bold">Loại khách hàng</label>
-					                                <div class="kt-checkbox-inline">
-														<label class="kt-checkbox">
-															<input type="checkbox"> Khách hàng phổ thông
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Khách hàng tiềm năng
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Khách chốt
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Khách đã mua
-															<span></span>
-														</label>
-													</div>
-					                            </div>
-					                            <div class="col-lg-6">
-					                            	<label class="kt-font-bold">Nguồn khách</label>
-					                                <div class="kt-checkbox-inline">
-														<label class="kt-checkbox">
-															<input type="checkbox"> Tự tìm kiếm
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Form website
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Facebook
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Google
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> SMS
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Hotline
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Công ty chuyển
-															<span></span>
-														</label>
-														<label class="kt-checkbox">
-															<input type="checkbox"> Giới thiệu
-															<span></span>
-														</label>
-													</div>
-					                            </div>
-					                        </div>
-					                        <div class="form-group">
-												<label for="exampleTextarea">Field custom 1</label>
-												<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+			                                    </div>
+			                                    <div class="col-lg-6">    	
+			                                        <div class="form-group mb-3">
+			                                        	<label>Địa chỉ</label>
+			                                        	<input type="text" class="form-control form-control-sm mb-3" id="add" placeholder="Địa chỉ" required="">
+			                                        </div>
+			                                    </div>
+			                                    <div class="col-lg-6">    	
+			                                        <div class="form-group mb-3">
+			                                        	<label>Điện thoại</label>
+			                                        	<input type="text" class="form-control form-control-sm mb-3" id="tel" placeholder="Điện thoại (Bắt buộc)" required="">
+			                                        </div>
+			                                    </div>
+			                                    <div class="col-lg-6">    	
+			                                        <div class="form-group mb-3">
+			                                        	<label>Email</label>
+			                                        	<input type="text" class="form-control form-control-sm mb-3" id="email" placeholder="Email" required="">
+			                                        </div>	
+												</div>
 											</div>
-											<div class="form-group">
-												<label for="exampleTextarea">Field custom 2</label>
-												<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+											<h6 class="my-4">Thông tin Phân loại</h6>
+											<div class="form-group mb-3">
+												<label>Khách hàng của dự án</label>
+												<div class="w-100">
+													<select class="form-control form-control-sm kt-select2" id="kt_select2_4" name="param" multiple="multiple" style="width: 100% !important">
+														<option value="AK" selected>Alaska</option>
+														<option value="HI" selected>Hawaii</option>
+														<option value="CA" selected>California</option>
+														<option value="NV" selected>Nevada</option>
+														<option value="OR">Oregon</option>
+														<option value="WA">Washington</option>
+														<option value="AZ">Arizona</option>
+														<option value="CO">Colorado</option>
+														<option value="ID">Idaho</option>
+														<option value="MT">Montana</option>
+														<option value="AK">Alaska</option>
+														<option value="HI">Hawaii</option>
+														<option value="CA">California</option>
+														<option value="NV">Nevada</option>
+														<option value="OR">Oregon</option>
+														<option value="WA">Washington</option>
+														<option value="AZ">Arizona</option>
+														<option value="CO">Colorado</option>
+														<option value="ID">Idaho</option>
+														<option value="MT">Montana</option>
+													</select>
+												</div>
+												<span class="form-text text-muted">Lựa chọn 1 hoặc nhiều nhóm trong danh sách</span>
+											</div>
+											<div class="form-group mb-3">
+												<label>Thuộc nhóm khách hàng</label>
+												<div class="w-100">
+													<select class="form-control form-control-sm kt-select2" id="kt_select2_2" name="param" multiple="multiple" style="width: 100% !important">
+														<option value="AK" selected>Alaska</option>
+														<option value="HI" selected>Hawaii</option>
+														<option value="CA" selected>California</option>
+														<option value="NV" selected>Nevada</option>
+														<option value="OR">Oregon</option>
+														<option value="WA">Washington</option>
+														<option value="AZ">Arizona</option>
+														<option value="CO">Colorado</option>
+														<option value="ID">Idaho</option>
+														<option value="MT">Montana</option>
+														<option value="AK">Alaska</option>
+														<option value="HI">Hawaii</option>
+														<option value="CA">California</option>
+														<option value="NV">Nevada</option>
+														<option value="OR">Oregon</option>
+														<option value="WA">Washington</option>
+														<option value="AZ">Arizona</option>
+														<option value="CO">Colorado</option>
+														<option value="ID">Idaho</option>
+														<option value="MT">Montana</option>
+													</select>
+												</div>
+												<span class="form-text text-muted">Lựa chọn 1 hoặc nhiều nhóm trong danh sách</span>
+											</div>
+											<div class="row">
+												<div class="col-lg-6">
+													<div class="form-group mb-3">
+														<label>Phân loại khách hàng</label>
+														<select class="form-control form-control-sm">
+																<option selected>Khách phổ thông</option>
+																<option selected>Khách tiềm năng</option>
+																<option selected>Khách Nét</option>
+																<option selected>Khách chốt</option>
+																<option selected>Khách đã mua</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-lg-6">	
+													<div class="form-group mb-3">
+														<label>Nguồn khách</label>
+														<select class="form-control form-control-sm">
+																<option selected>Internet</option>
+																<option selected>Facebook</option>
+																<option selected>Google</option>
+																<option selected>SMS</option>
+																<option selected>Telesale</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											<h6 class="my-4">Thông tin Bổ sung</h6>
+											<div class="form-group mb-3">
+												<label>Fiel nâng cao 1</label>
+												<textarea class="form-control form-control-sm" rows="3"></textarea>
+											</div>
+											<div class="form-group mb-3">
+												<label>Fiel nâng cao 2</label>
+												<textarea class="form-control form-control-sm" rows="3"></textarea>
+											</div>	
+											<div class="form-group mb-3">
+												<label>Fiel nâng cao 3</label>
+												<textarea class="form-control form-control-sm" rows="3"></textarea>
 											</div>
 										</div>
 										<div class="modal-footer">
