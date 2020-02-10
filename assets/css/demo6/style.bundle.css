@@ -30709,8 +30709,8 @@ body {
       left: 0;
       z-index: 97; }
     .kt-header .kt-header__title {
-      position: absolute;
-      left: 100px;
+      /*position: absolute;*/
+      /*left: 100px;*/
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;

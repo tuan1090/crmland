@@ -69,6 +69,7 @@
 
 		<!--begin::Global Theme Styles(used by all pages) -->
 		<link href="./assets/css/demo6/style.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="./assets/css/demo6/custom.css" rel="stylesheet" type="text/css" />
 
 		<!--end::Global Theme Styles -->
 
@@ -89,7 +90,7 @@
 		<div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
 			<div class="kt-header-mobile__logo">
 				<a href="demo6/index.html">
-					<img alt="Logo" src="./assets/media/logos/logo-6-sm.png" />
+					<img alt="Logo" src="./assets/media/logos/logo.png" />
 				</a>
 			</div>
 			<div class="kt-header-mobile__toolbar">
@@ -349,23 +350,91 @@
 						<div class="kt-header__brand kt-grid__item  " id="kt_header_brand">
 							<div class="kt-header__brand-logo">
 								<a href="demo6/index.html">
-									<img alt="Logo" src="./assets/media/logos/logo-6.png" />
+									<img alt="Logo" src="./assets/media/logos/logo.png" />
 								</a>
 							</div>
 						</div>
 
 						<!-- end:: Aside -->
 
-						<!-- begin:: Title -->
-						<h3 class="kt-header__title">
-							CRMLAND - nền tảng chuyên nghiệp quản trị khách hàng bất động sản
-						</h3>
+						<!-- begin: Header Menu -->
+						<button class="kt-header-menu-wrapper-close" id="kt_header_menu_mobile_close_btn"><i class="la la-close"></i></button>
+						<div class="kt-header-menu-wrapper kt-grid__item kt-grid__item--fluid" id="kt_header_menu_wrapper">
+							<div id="kt_header_menu" class="kt-header-menu kt-header-menu-mobile  kt-header-menu--layout-default ">
+								<ul class="kt-menu__nav ">
+									<li class="kt-menu__item kt-menu__item--active" aria-haspopup="true">
+										<a href="demo6/index.html" class="kt-menu__link ">
+											<span class="kt-menu__link-text">BẢNG QUẢN TRỊ</span>
+										</a>
+									</li>
+									<li class="kt-menu__item" aria-haspopup="true">
+										<a href="demo6/index.html" class="kt-menu__link ">
+											<span class="kt-menu__link-text">KHÁCH HÀNG</span>
+										</a>
+									</li>
+									<li class="kt-menu__item" aria-haspopup="true">
+										<a href="demo6/index.html" class="kt-menu__link ">
+											<span class="kt-menu__link-text">WEBLAND</span>
+										</a>
+									</li>
+									<li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel" data-ktmenu-submenu-toggle="click" aria-haspopup="true">
+										<a href="javascript:;" class="kt-menu__link kt-menu__toggle">
+											<span class="kt-menu__link-text">TIỆN ÍCH</span>
+										</a>
+										<div class="kt-menu__submenu kt-menu__submenu--classic kt-menu__submenu--left">
+											<ul class="kt-menu__subnav">
+												<li class="kt-menu__item " aria-haspopup="true">
+													<a href="javascript:;" class="kt-menu__link ">
+														<i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i>
+														<span class="kt-menu__link-text">TẠO FORM LIÊN HỆ</span>
+													</a>
+												</li>
+												<li class="kt-menu__item " aria-haspopup="true">	
+													<a href="javascript:;" class="kt-menu__link ">
+														<i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i>
+														<span class="kt-menu__link-text">TẠO BUTTON LIÊN HỆ</span>
+													</a>
+												</li>
+												<li class="kt-menu__item " aria-haspopup="true">	
+													<a href="javascript:;" class="kt-menu__link ">
+														<i class="kt-menu__link-bullet kt-menu__link-bullet--dot"><span></span></i>
+														<span class="kt-menu__link-text">TẠO CHATBOT</span>
+													</a>
+												</li>
+											</ul>
+										</div>
+									</li>			
+									<li class="kt-menu__item" aria-haspopup="true">
+										<a href="demo6/index.html" class="kt-menu__link ">
+											<span class="kt-menu__link-text">MARKETING</span>
+										</a>
+									</li>
+									<li class="kt-menu__item" aria-haspopup="true">
+										<a href="demo6/index.html" class="kt-menu__link ">
+											<span class="kt-menu__link-text">TỰ ĐỘNG</span>
+										</a>
+									</li>
+									<li class="kt-menu__item" aria-haspopup="true">
+										<a href="demo6/index.html" class="kt-menu__link ">
+											<span class="kt-menu__link-text">LỊCH CÔNG VIỆC</span>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
 
-						<!-- end:: Title -->
-
+						<!-- end: Header Menu -->
 						<!-- begin:: Header Topbar -->
 						<div class="kt-header__topbar">
-
+							<!--begin: Cart -->
+							<div class="kt-header__topbar-item">
+								<div class="kt-header__topbar-wrapper">
+									<span style="display: -webkit-box;display: -ms-flexbox;display: flex;-ms-flex-item-align: center;align-self: center;padding: 0 0.55rem 0 0;font-weight: 500;font-size: 0.9rem;
+									    background-color: #0476bc;border-radius: 15px;padding: 0.75rem 1.25rem;">
+										<a href="#" style="color: #fff"><i class="flaticon2-shopping-cart-1 mr-2"></i> 300.000.000 đ</a>
+									</span>
+								</div>
+							</div>	
 							<!--begin: User bar -->
 							<div class="kt-header__topbar-item kt-header__topbar-item--user">
 								<div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="10px,0px">

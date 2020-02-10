@@ -91,7 +91,7 @@
 													<div class="kt-separator kt-separator--space-lg kt-separator--border-soild"></div>
 													<h5 class="mb-3" style="font-size: 1.1rem">Người nhận</h5>
 													<div class="row">
-														<div class="col-lg-6">
+														<div class="col-lg-4">
 															<label class="kt-option">
 															<span class="kt-option__control">
 															<span class="kt-radio kt-radio--state-brand">
@@ -108,7 +108,7 @@
 															</span>		
 															</label> 
 														</div>
-														<div class="col-lg-6">
+														<div class="col-lg-4">
 															<label class="kt-option">
 															<span class="kt-option__control">
 															<span class="kt-radio kt-radio--state-brand">
@@ -119,7 +119,24 @@
 															<span class="kt-option__label">
 															<span class="kt-option__head">
 																<span class="kt-option__title">
-																Lựa chọn tệp khách hàng			
+																Chọn theo Nhóm khách hàng			
+																</span>												 
+															</span>
+															</span>		
+															</label> 
+														</div>
+														<div class="col-lg-4">
+															<label class="kt-option">
+															<span class="kt-option__control">
+															<span class="kt-radio kt-radio--state-brand">
+															<input type="radio" name="choose-data" id="choose-data" value="">
+															<span></span>
+															</span>
+															</span>
+															<span class="kt-option__label">
+															<span class="kt-option__head">
+																<span class="kt-option__title">
+																Chọn theo dự án		
 																</span>												 
 															</span>
 															</span>		
