@@ -133,9 +133,9 @@
 										<div style="margin-top: 10px;">
 		                                    <div style="background: url(https://webland.vn/product.jpg) top left no-repeat ; background-size: 264px; width: 264px; height: 347px;background-position-y: 10px;"></div>
 		                                    <div style="padding-top: 20px">
-		                                        <p>Tên giao diện: <code>Mặc định</code></p>
-		                                        <p>Mã giao diện: <code>webland</code></p>
+		                                        <p>Giao diện: <code>Mặc định</code> (WL-0001)</p>
 		                                        <p>Link demo: <code>https://webland.vn</code></p>
+		                                        <p><code>Lưu ý:</code> Bạn có thể thay đổi giao diện khác hoàn toàn miễn phí sau khi tạo web</p>
 		                                    </div>
 		                                </div>
 									</div>
